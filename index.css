@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 
+}
+#header {
+  background-color: gray;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  height: 75px;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 65px;
+}
+#main-manu {
+  padding-left: 28%;
+  display: flex;
+  font-size: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding-right: 7%;
+}
+#name {
+  padding-left: 10%;
+  font-size: 76px;
+  padding-top: 5px;
+}
+#name-coding {
+  font-size: 30px;
+  padding-left: 0.5%;
+  padding-top: 35px;
+}
+#main-cont {
+  display: flex;
+  flex-direction: row;
+}
+#main-contant {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+}
+#tenc {
+  font-size: 300px;
+  padding-left: 20%;
+  padding-top: 100px;
+  padding-bottom: 0%;
+}
+#coding-campus {
+  font-size: 70px;
+  margin-left: 24%;
+  padding-top: 0px;
+  position: relative;
+  bottom: 65px;
+}
+#student-image > img {
+  width: 1100px;
+  padding-left: 180px;
+  padding-top: 100px;
+  padding-bottom: 0%;
+}
+#Quats {
+  display: flex;
+  font-size: 28px;
+  margin-left: 25%;
+  align-items: center;
+  margin-bottom: 250px;
+  padding-bottom: 150px;
+}
+#teach {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 100px;
+  padding-bottom: 50px;
+}
+#teachers {
+  display: flex;
+  flex-direction: row;
+  /* background-color: darkgray; */
+  /* height: 300px;  */
+  /* width: 900px;  */
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#teacher {
+  height: 350px;
+  width: 350px;
+  background-color: gray;
+  border-radius: 50%;
+}
+#teacher-image{
+  height: 348px;
+  width: 348px;
+  border-radius: 50%;
+  padding-left: 0.5px;
+}
+#teacher-names {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#teacher-name {
+  width: 350px;
+  height: 150px;
+  z-index: -2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 34px;
+}
+#teacher-sets {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  top: 1382px;
+  gap: 111px;
+}
+#teacher-set {
+  height: 380px;
+  width: 380px;
+  background-color: darkorange;
+  border-radius: 50%;
+  z-index: -1;
+}
+#course-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 100px;
+  padding-bottom: 40px;
+}
+#courses {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 130px;
+  padding-left: 30px;
+}
+#course {
+  width: 350px;
+  height: 500px;
+  background-color: gray;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+#course-name {
+  padding-top: 20px;
+  font-size: 38px;
+}
+#course-discript {
+  padding-top: 30px;
+  font-size: 24px;
+}
+#course-name-dm {
+  font-size: 38px;
+  display: flex;
+  margin-left: 30px;
+  padding-top: 10px;
+}
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: darkorange;
+  margin-top: 20px;
+  height: 400px;
+  padding-right: 180px;
+  padding-left: 180px;
+  gap: 130px;
+}
+#footer-tenc {
+  font-size: 130px;
+  padding-top: 30px;
+}
+#footer-coding-camp {
+  font-size: 30px;
+  padding-left: 20px;
+}
+#policy {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#policy-text {
+  font-size: 24px;
+  padding-top: 10px;
+}
+#footer-courses {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#footer-courses-text {
+  font-size: 24px;
+  padding-top: 10px;
+}
+#languages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#language-text {
+  font-size: 24px;
+  padding-top: 10px;
+}
